@@ -32,9 +32,13 @@ with them. This tool takes raw customer feedback and returns:
 - Which features drive complaints
 - A plain-language summary any stakeholder can act on
 
-Built with Python + Claude API.
+**How I'm building it:**
+Starting from scratch — Python fundamentals, text preprocessing, 
+word frequency analysis, and pre-trained NLP models from 
+Hugging Face. No shortcuts. Understanding every layer before 
+moving to the next.
 
-`Python` `Claude API` `eCommerce` `NLP`
+`Python` `Hugging Face` `NLP` `Sentiment Analysis`
 
 ---
 
