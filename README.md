@@ -42,7 +42,7 @@ Built with Python + Claude API.
 
 - **2013–2016** — Java backend developer
 - **2016–2022** — Product management, eCommerce + digital channels
-- **2022–now** — Senior PM, Samsung Electronics America (Digital Appliances & Virtual Display divisions)"
+- **2022–now** — Senior PM, Samsung Electronics America (Digital Appliances & Virtual Display divisions)
 - **2026–building** — AI PM transition. Shipping tools that automate what I've done manually for years.
 
 ---
