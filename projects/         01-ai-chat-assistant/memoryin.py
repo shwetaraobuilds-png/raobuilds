@@ -2,32 +2,39 @@ import anthropic
 
 client = anthropic.Anthropic()
 
-# First API call
+# --------------------------
+# First API Call
+# --------------------------
+
 first_message = client.messages.create(
     model="claude-sonnet-4-5",
     max_tokens=300,
     messages=[
         {
             "role": "user",
-            "content": "Explain recommendation systems in one short paragraph."
+            "content": "Explain recommendation systems."
         }
     ]
 )
 
 first_answer = first_message.content[0].text
 
-print("FIRST ANSWER")
+print("FIRST RESPONSE")
 print(first_answer)
-print("\n" + "-" * 60 + "\n")
 
-# Second API call
+print("\n" + "="*60 + "\n")
+
+# --------------------------
+# Second API Call
+# --------------------------
+
 second_message = client.messages.create(
     model="claude-sonnet-4-5",
     max_tokens=300,
     messages=[
         {
             "role": "user",
-            "content": "Explain recommendation systems in one short paragraph."
+            "content": "Explain recommendation systems."
         },
         {
             "role": "assistant",
@@ -35,10 +42,10 @@ second_message = client.messages.create(
         },
         {
             "role": "user",
-            "content": "Now give me one concise e-commerce example."
+            "content": "Can you give me an e-commerce example?"
         }
     ]
 )
 
-print("SECOND ANSWER")
+print("SECOND RESPONSE")
 print(second_message.content[0].text)
