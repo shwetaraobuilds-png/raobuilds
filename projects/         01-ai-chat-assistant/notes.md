@@ -20,3 +20,89 @@ What surprised me the most today?
 
 - When hitting a API through postman, sometimes it takes days to get the response. Through the claude & Python, the request was achieved in few minutes. 
 - It is facinating how it is remembering the history and replying to the answers just by few line of code. 
+
+# Day 2
+
+## Goal
+
+Build an interactive chatbot.
+
+---
+
+## New Concepts
+
+- while True
+- input()
+- break
+- append()
+- conversation history
+- dynamic prompts
+
+---
+
+## Biggest Learning
+
+LLMs do not own memory.
+
+The application owns memory.
+
+The application decides what conversation history to send.
+
+---
+
+## Architecture
+
+Keyboard
+
+↓
+
+input()
+
+↓
+
+user_input
+
+↓
+
+conversation.append()
+
+↓
+
+Claude API
+
+↓
+
+Message
+
+↓
+
+TextBlock
+
+↓
+
+String
+
+↓
+
+Print
+
+↓
+
+conversation.append()
+
+↓
+
+Loop
+
+---
+
+## Questions
+
+1. How is JSON actually sent over HTTPS?
+
+2. How does the SDK create HTTP requests?
+
+3. Where is conversation stored in ChatGPT?
+
+
+
