@@ -1,54 +1,62 @@
-# Hey, I'm Shweta Rao
+# Hey, I'm Shweta Rao 👋
 
-**Technical PM who automates real-world problems at scale**
+**Product leader building at the intersection of AI, developer platforms, payments, and commerce.**
 
----
+I started my career as a Java backend developer, which gave me a foundation in systems, APIs, integrations, and data flows. I later moved into product management and have spent 11+ years building products across fintech, payments, eCommerce, and digital experiences.
 
-## My story
+Most recently, I was a Staff Product Manager at Samsung Electronics America, where I worked on personalization, acquisition, and commerce experiences for the Shop Samsung app. Earlier, I worked on merchant integrations, payments, onboarding, and developer-platform experiences at PhonePe and Financial Data Exchange.
 
-I started as a Java backend developer — which means I've always 
-thought in systems, APIs, and data flows. That foundation changed 
-how I approach product work.
-
-Over 11 years in product management, I moved into eCommerce and 
-digital channels, eventually leading GTM strategy for Samsung's Digital Appliances and Virtual Display divisions
-
-Along the way I kept noticing the same pattern: businesses have 
-all the pieces — the platforms, the data, the content — but the 
-manual work in between never gets automated. That gap is what 
-I'm obsessed with closing.
-
-So I started building.
-
----
+Today, I'm going deeper into AI by **learning through building** — understanding not just how to use LLMs, but how AI applications actually work underneath.
 
 ## What I'm building
 
-### 📊 ecommerce-feedback-analyzer *(in progress)*
+### 🔎 DevDocs AI — RAG-powered developer documentation assistant
 
-Businesses collect thousands of product reviews and do nothing 
-with them. This tool takes raw customer feedback and returns:
-- Which product features users love most
-- Which features drive complaints
-- A plain-language summary any stakeholder can act on
+Developers integrating APIs often spend significant time searching documentation, understanding errors, and finding the right implementation guidance.
 
-**How I'm building it:**
-Starting from scratch — Python fundamentals, text preprocessing, 
-word frequency analysis, and pre-trained NLP models from 
-Hugging Face. No shortcuts. Understanding every layer before 
-moving to the next.
+I'm building **DevDocs AI** to explore how AI can make developer documentation easier to navigate.
 
-`Python` `Hugging Face` `NLP` `Sentiment Analysis`
+The current prototype:
 
----
+* Ingests and chunks developer documentation
+* Creates semantic embeddings using Voyage AI
+* Retrieves relevant documentation using cosine similarity
+* Provides retrieved context to Claude for grounded answers
+* Displays the documentation source
+* Uses relevance thresholds to handle unsupported questions
 
-## Career timeline
+The first implementation uses curated Stripe API documentation covering authentication, PaymentIntents, idempotency, API errors, test/live environments, and webhooks.
 
-- **2013–2016** — Java backend developer
-- **2016–2022** — Product management, eCommerce + digital channels
-- **2022–now** — Senior PM, Samsung Electronics America (Digital Appliances & Virtual Display divisions)
-- **2026–building** — AI PM transition. Shipping tools that automate what I've done manually for years.
+`Python` `Claude` `Voyage AI` `RAG` `Embeddings` `Semantic Search`
+
+**Currently exploring:** persistent embeddings, retrieval evaluation, multi-document retrieval, vector databases, source attribution, and developer-feedback loops.
 
 ---
 
-*Building in public at raobuilds.com*
+## What I'm learning
+
+I'm working through the AI application stack from first principles:
+
+`LLM APIs` → `Prompting` → `Memory` → `Embeddings` → `Retrieval` → `RAG` → `Vector Databases` → `Evaluation` → `Agents`
+
+I document what I build, what breaks, and what I learn along the way.
+
+---
+
+## Background
+
+* **Software Engineering** — Java/backend systems
+* **Fintech & Payments** — APIs, merchant integrations, onboarding, payment experiences
+* **Commerce** — acquisition, personalization, conversion, and customer journeys
+* **Developer Platforms** — API integrations and developer experiences
+* **AI** — currently building hands-on applications and learning the underlying systems
+
+---
+
+## Why I'm building in public
+
+AI concepts became much clearer to me once I stopped only reading about them and started building them.
+
+My goal is to understand AI deeply enough to **build it, explain it, evaluate it, and make better product decisions around it**.
+
+This GitHub documents that journey.
